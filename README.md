@@ -1,6 +1,6 @@
 # Verbalyx — transcribe, analyse and question spoken content
 
-A portfolio project that began from a YouTube tutorial and was extended with a web studio (replacing the original Streamlit UI), display of the retrieved evidence behind each answer, a fix for cross-video retrieval contamination and documented limitations. Given a YouTube link or an uploaded audio/video file, the assistant:
+Includes a web studio, display of the retrieved evidence behind each answer, a fix for cross-video retrieval contamination and documented limitations. Given a YouTube link or an uploaded audio/video file, the assistant:
 
 1. extracts the audio and splits it into 10-minute chunks (`utils/audio_processor.py`, yt-dlp + pydub/ffmpeg);
 2. transcribes it with local **Whisper** (English) or the **Sarvam** speech-to-text-translate API (Hinglish → English);
